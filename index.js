@@ -12,7 +12,7 @@ document.querySelector(".img2").setAttribute("src" , `images/dice${randomNumber2
 
 //Player 1 wins
 if(randomNumber1>randomNumber2)
-    document.querySelector("h1").innerHTML = "Player 1 Wins🎉";
+    document.querySelector("h1").innerHTML = "🎉Player 1 Wins";
 
 //Player 2 wins
 else if(randomNumber2>randomNumber1)
@@ -20,4 +20,4 @@ else if(randomNumber2>randomNumber1)
 
 //Mathch tied
 else
-    document.querySelector("h1").innerHTML = "Match Tie✨";
+    document.querySelector("h1").innerHTML = "Match Tie!";
